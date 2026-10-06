@@ -1,90 +1,84 @@
-# exp_2_mode_characteristics_of_reflex_klystron_oscillator
+# 2-MODE-CHARACTERISTICS-OF-REFLEX-KLYSTRON
 
-# Experiment 2 — Mode Characteristics of Reflex Klystron
----
-## Aim
+**Aim:**
 
-To study the mode characteristics of a reflex klystron and hence determine the mode number, transit time, electronic tuning range (ETR) and electronic tuning sensitivity (ETS).
+To study mode characteristics of reflex klystron and hence to determine mode number,transit time electronic tuning range (ETR) and electronic tuning sensitivity (ETS)
 
-## Equipment and Components
+**Equipment and Component:**
+1.	Klystron power supply MTI KP 503
+2.	Klystron tube /2k25
+3.	Isolator MTI/ NVIS- 204
+4.	Frequency Meter MTI/NVIS – 205A
+5.	Variable Attenuator MTI/ NVIS - 206
+6.	Detector mount MTI/ NVIS - 209
+7.	Waveguide stands MTI/NVIS
+8.	VSWR meter MTI VS 501/NVIS
+9.	Cathode Ray Oscilloscope Scientech -801C
+    **Experimental Setup:**
 
-1. Klystron power supply MTI KP 503
-2. Klystron tube / 2K25
-3. Isolator MTI/NVIS-204
-4. Frequency meter MTI/NVIS-205A
-5. Variable attenuator MTI/NVIS-206
-6. Detector mount MTI/NVIS-209
-7. Waveguide stands MTI/NVIS
-8. VSWR meter MTI VS 501/NVIS
-9. Cathode ray oscilloscope Scientech-801C
-
-## Experimental Setup
-
-<img width="870" height="295" alt="image" src="https://github.com/user-attachments/assets/9a3dedfa-312f-4f45-ab30-f3a8f4bd1639" />
-
-<img width="701" height="292" alt="image" src="https://github.com/user-attachments/assets/7d3952ea-2bb0-43d7-b35c-2a6ffff002c7" />
-
----
-
-## Theory
-
-The reflex klystron is a microwave tube used as the microwave source in the lab. It uses **velocity modulation** to convert a continuous electron beam into microwave power; its oscillation frequency can be varied over a wide band and it can be pulse- and frequency-modulated.
-
-Electrons emitted from the cathode are accelerated through the positive resonator grid towards the reflector. The reflector is negative with respect to the cathode, so it retards and finally reflects the electrons, which turn back through the resonator grids. When the klystron oscillates a high field exists between the resonator grids: an electron crossing the gap is either accelerated or retarded as the gap voltage changes in amplitude. Accelerated electrons leave at increased velocity, retarded electrons at reduced velocity, so the electrons need different times to return — different transit times — and the returning electrons group together in **bunches**. This variation of electron velocity is velocity modulation.
-
-As the bunches pass back through the resonator grids they interact with the gap voltage. If they arrive when the grid voltage slows them down, energy is delivered to the resonator and the klystron oscillates. The strongest oscillation occurs when the transit time in the reflector region equals **n + ¾** cycles of the resonator frequency, where *n* is an integer including zero. If the bunches arrive when the field accelerates them, energy is removed from the resonator and no oscillation occurs.
-
-<img width="551" height="376" alt="image" src="https://github.com/user-attachments/assets/f46fd238-b33e-4b3e-a345-7f672af0752e" />
-
-### Mechanical and Electronic Tuning
-
-* **Mechanical tuning** changes the width of the cavity, i.e. its effective capacitance, and hence the resonant frequency. The output power stays essentially the same.
-* **Electronic tuning** changes the repeller voltage, which changes the output frequency — but the output power also changes. It is quantified by the **electronic tuning sensitivity (ETS)**, obtained as the slope of the frequency characteristic of the mode.
-
----
-
-## Procedure
-
-1. Connect the components and equipment as shown in Fig. (A).
-2. Keep the control knobs of the klystron power supply as follows:
-
-   | Control | Setting |
-   |---|---|
-   | Mode switch | AM |
-   | Beam voltage knob | Fully anti-clockwise |
-   | Repeller voltage knob | Fully clockwise |
-   | Meter switch | Beam current |
-
-3. Rotate the frequency meter to one side (**rotate the frequency meter very slowly**).
-4. Switch on the klystron power supply, the VSWR meter/CRO and the cooling fan for the klystron tube. Wait 1–2 minutes for the klystron to respond.
-5. With the cathode voltage knob at minimum the beam voltage is about 235–300 V. Observe the beam current by switching the meter to the beam-current position. **The beam current must not exceed 30 mA** — try to set it to about 20 mA by adjusting the beam voltage knob.
-6. Change the meter switch to the repeller/reflector voltage position.
-7. Decreasing the reflector/repeller voltage, record the output power and the frequency.
-8. To measure frequency, set the mode switch to AM and observe the output on the CRO. Use the AM amplitude and frequency controls and the oscilloscope front-panel controls to get a clear display. Rotate the frequency meter and watch for a dip in the output; note the corresponding frequency.
-9. Switch on the beam voltage and rotate the beam voltage knob clockwise slowly while watching the VSWR meter; set it for maximum deflection.
-10. Change the repeller voltage slowly and set it for maximum deflection on the VSWR meter.
-11. Rotate the frequency meter knob slowly and stop where the output on the VSWR meter is lowest.
-12. Read the frequency directly on the frequency meter, between the two horizontal fine marks.
-13. Change the repeller voltage and read the power and frequency for each repeller voltage.
-
-## Observation
-
-<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/c02c405c-a15d-4ef5-8ff8-4016bd6d8baa" />
+<img width="529" height="189" alt="image" src="https://github.com/user-attachments/assets/196f94fb-5b64-4092-8463-a17e7fce1548" />
 
 
-## Precautions
+**Theory**
 
-1. Check the connections before switching on the kit.
-2. Keep all knobs at their minimum positions before switching on the VSWR meter / klystron power supply.
-3. On the klystron power supply the **HT must be OFF** before switching on the mains supply.
-4. The beam knob must be fully anti-clockwise and the repeller voltage knob fully clockwise.
-5. Switch on the mains and allow some warm-up time for accurate readings.
-6. Make all connections properly.
-7. Do not look directly into the waveguide.
-8. After the experiment, switch off the mains and return all knobs to their minimum positions before leaving the bench.
-9. If the mains supply fails mid-experiment, return to the initial condition — all knobs at minimum — and switch off the main switches.
-10. Do not increase the repeller voltage beyond −70 V; it should stay between −70 V and 270 V.
+The Reflex Klystron is a microwave tube used as a microwave source in the lab. It makes use of velocity modulation to transform a continuous electron beam into microwave power. Its oscillation frequency can be varied over a wide band and it can be pulse and frequency modulated.
+Electrons emitted from the cathode are accelerated by and pass through the positive resonator grid towards the reflector. The reflector is at a negative voltage with respect to cathode, and consequently it retard and finally reflects (reflex klystron) the electrons, which then turn back through the resonator grids: In case the klystron starts to oscillate, a hi-field exists between the resonator grids. The electron travelling through the grid will be either accelerated or retarded as the voltage changes in amplitude. Accelerated electrons leave the grid at an increased velocity and retarded electrons leave at a reduced velocity. Because of the difference in velocity the electrons leaving the grids will need different time to return (i.e., have different transit times).As a result of returning electron group together in bunches. This variation in velocity of the electrons is called velocity modulation.
 
-## Conclusion
+<img width="425" height="228" alt="image" src="https://github.com/user-attachments/assets/0ced5a2e-aab0-4890-bcae-59ee74828945" />
 
-The mode characteristics of the Reflex Klystron were studied successfully. The variation of output power with repeller voltage was observed, and the different modes of oscillation were identified. The experiment verified the principle of velocity modulation and electron bunching used for microwave generation.
+As the electron bunches pass through the resonator grids, they interact with the voltage between the grids. If the bunches pass through the grids at a time such that the electrons are slowed downby the grid voltage energy will be delivered to the resonator and the klystron will oscillate. Strongest oscillation will occur when transit time in the reflector resonator region n +
+¾ cyclesof the resonator frequency, where ‘n’ an integer is including zero. If the bunches pass throughthe grids at a time such that the electrons are accelerated by the voltage, energy will be removed from the resonator and no oscillations will occur.
+
+**Procedure:**
+
+1.	Connect the components and equipment as shown 
+2.	Keep the control knob of klystron power supply as below
+3.	Mode switch	:	AM Beam voltage knob : Fully anti-clockwise
+   Repeller voltage knob : Fully clockwise
+   Meter switch: Beam Voltage/Beam Current/ Repeller Voltage: Beam current Current
+4. Rotate the frequency meter at one side (NOTE: Rotate frequency meter very slowly).
+5.	Switch on the klystron power supply, V.S.W.R/CRO and cooling fan for the klystron tube.Wait for 1-2 minutes for the klystron to respond.
+6.	Cathode voltage knob at minimum position gives a beam voltage about 235V to 300V. Observe beam current on the meter by changing meter switch to beam current position. “The beam current should not be more than 30mA”. (Try to set Beam current at 20 mA by increasing/Decreasing beam voltage knob)
+7.	Now change the meter switch to repeller/reflector voltage position.
+8.	Decreasing the reflector/repeller voltage, record output power and frequency.
+9.	To measure frequency, switch the Mode-switch of klystron to AM mode and observe output on CRO display. Use AM amplitude, frequency controls and controls on Oscilloscope front panel try to get clear display on C.R.O. By rotating the frequency meter observe for dip in theoutput and note the corresponding frequency.
+10.	Put ‘ON’ the beam voltage switch and rotate the beam voltage knob clockwise in supply slowly and watch VSWR meter set the voltage for maximum deflection on the meter.
+11.	Change the repeller voltage slowly & watch the VSWR meter. Set the voltage formaximum deflection on the meter.
+12.	Rotate the knob of frequency meter slowly and stop at that position where there islowest O/P on VSWR meter.
+13.	Read directly, the frequency meter between two horizontal fine marks.
+14.	Change the repeller voltage and read the power and frequency for each repeller voltage.
+Mechanical and Electronic Tuning
+Mechanical tuning depends on changing the width of cavity i.e. the effective I capacitance and thus the resonant frequency of the klystron changes. The power output remains same with tuning.
+Electronic tuning refers to change in repeller voltage causing a change in output frequency. However, the power output also changes. A measure of electronic tuning is given by ‘Electronic tuning Sensitivity (ETS)’. This can be determined by taking the slope of the frequency characteristic of the modes.
+
+**Observation:**
+<img width="1563" height="1004" alt="image" src="https://github.com/user-attachments/assets/de6b77b8-0cf4-4c63-9b93-d7222ffcffe8" />
+
+<img width="1272" height="1599" alt="image" src="https://github.com/user-attachments/assets/a0c5f613-54e7-4c5b-95ee-262781b95963" />
+
+**CALCULATIONS:**
+
+1.	Tuning range of 1 ¾ mode is Po = 10(x/20) watts, where x is dB reading in VSWR meter.(Include sample calculations/Display/plot/typical graph)
+2.	By taking the values of repeller voltage we can calculate the the mode number N1 = n + ¾	 with V2 = N2 = (n +1) + ¾	with V1 = N1 & N2 are respective modes numbers.
+3.	ETS (Electronic Tuning Sensitivity) = f2 - f1 / V2 – V1 MHz / V
+
+**Precautions:**
+
+4.	Check the connections before switching on the kit.
+5.	Keep all the knobs in minimum position before going to switch ‘ON’ the powersupply of VSWR / Klystron power supplies.
+6.	Note: For klystron power supply “HT” should be ‘OFF’ before switching ‘ON’the main supply.
+7.	Beam knob should be completely in anticlockwise direction and repeller voltageknob should be completely clockwise direction.
+8.	Switch on the main supply and give some warm up time to get current / accuratereading.
+9.	Connections should be done properly.
+10.	Don’t see directly inside the waveguide.
+11.	After the completion of experiment, before leaving the bench switch off themains keep all the knobs in minimum position (i.e.) as those are in rule 2.
+12.	If the main supply failed in the middle of the experiment, come to 1st condition (i.e.)keep all the knobs in minimum positions and switch off main switches.
+13.	Don’t increase the repeller voltage more than -70V (i.e.) it should be between -70V to 270V.
+
+    **Result:**
+   	
+	The mode characteristics of the Reflex Klystron were successfully studied. The Electronic Tuning Range (ETR) was found to be about 150 MHz, and the Electronic Tuning Sensitivity (ETS) was about 7.5 MHz/V. Thus, the klystron effectively demonstrated electronic tuning using velocity modulation.		
+			
+			
+			
+			
